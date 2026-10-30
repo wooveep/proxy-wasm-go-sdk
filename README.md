@@ -1,3 +1,5 @@
+> **2026-10-31：历史源码仓库，已退出日常维护和构建。** 唯一维护路径为 [`plugin-server/plugins/proxy-wasm-go-sdk/`](../../plugin-server/plugins/proxy-wasm-go-sdk/)，统一入口为 `make -C ../../plugin-server build-all` 或 `build-plugin PLUGIN=<名称>`。本目录的 Git 历史及既有未提交资料保留；历史重现需显式设置 `ALLOW_ARCHIVED_SOURCE=1`。来源、版本裁决与验收进展见[整合计划](../../plugin-server/docs/plans/2026-10-31-unified-plugin-source-and-delivery.md)。
+
 # WebAssembly for Proxies (Go SDK) [![Build](https://github.com/proxy-wasm/proxy-wasm-go-sdk/actions/workflows/workflow.yaml/badge.svg)](https://github.com/proxy-wasm/proxy-wasm-go-sdk/actions) [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](LICENSE)
 
 The Go SDK for [Proxy-Wasm](https://github.com/proxy-wasm/spec), enabling
